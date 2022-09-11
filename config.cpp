@@ -102,15 +102,15 @@ class cfgVehicles{
 		s_recoilControlMisalignmentY = 0.50;
 	};
 	class SNAFU_AK19_Stock : Inventory_Base {
-		s_recoilControlHandsX = 0.45;
-		s_recoilControlHandsY = 0.45;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.15;
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
 	};
 	class SNAFU_AK_AR_Stock : Inventory_Base {
-		s_recoilControlHandsX = 0.45;
-		s_recoilControlHandsY = 0.45;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.15;
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
@@ -130,8 +130,8 @@ class cfgVehicles{
 		s_recoilControlMisalignmentY = 0.05;
 	};
 	class SNAFUDSASA58_Stock : Inventory_Base {
-		s_recoilControlHandsX = 0.45;
-		s_recoilControlHandsY = 0.45;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.15;
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
@@ -139,44 +139,44 @@ class cfgVehicles{
 	class SNAFU_DSAHG1 : Inventory_Base {
 		s_recoilControlHandsX = 0.20;
 		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_DSAHG2 : Inventory_Base {
 		s_recoilControlHandsX = 0.20;
 		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MOEFS : Inventory_Base {
 		s_recoilControlHandsX = 0.20;
 		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MOELS : Inventory_Base {
 		s_recoilControlHandsX = 0.20;
 		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_AFG_02_Base : Inventory_Base {
 		s_recoilControlHandsX = 0.30;
 		s_recoilControlHandsY = 0.30;
-		s_recoilControlMisalignmentX = 0.60;
-		s_recoilControlMisalignmentY = 0.55;
+		s_recoilControlMisalignmentX = 0.40;
+		s_recoilControlMisalignmentY = 0.35;
 	};
 	class SNAFU_FGCR_Grip : Inventory_Base {
 		s_recoilControlHandsX = 0.30;
 		s_recoilControlHandsY = 0.30;
-		s_recoilControlMisalignmentX = 0.60;
-		s_recoilControlMisalignmentY = 0.55;
+		s_recoilControlMisalignmentX = 0.40;
+		s_recoilControlMisalignmentY = 0.35;
 	};
 	class SNAFU_FGKAC_Grip : Inventory_Base {
 		s_recoilControlHandsX = 0.20;
 		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.40;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_PistolGripColtA2 : Inventory_Base {
 		s_recoilControlHandsX = 0.10;
@@ -186,106 +186,106 @@ class cfgVehicles{
 	};
 	
 	class SNAFU_GADAR: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_HG625: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_HGGS: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MK47HG: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MCMR07: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MCMR08: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MCMR09: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MCMR10: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MCMR13: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MCMR15: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_HGMlok: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MK7: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MK9: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MK10: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MK13: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_MK15: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_LVOAHG: Inventory_Base {
-		s_recoilControlHandsX = 0.20;
-		s_recoilControlHandsY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlHandsX = 0.10;
+		s_recoilControlHandsY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
 	};
 	class SNAFU_M60_Handguard_E3: Inventory_Base {
 		s_recoilControlHandsX = 0.20;
