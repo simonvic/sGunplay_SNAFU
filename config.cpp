@@ -376,30 +376,36 @@ class cfgVehicles{
 
 	class ItemOptics;
 	class SNAFU_Elcan_Base : ItemOptics {
+		showEnterMisalignment = 0;
+		isFullscreen = 1;
 		class OpticsInfo {
 			PPMaskProperties[] = {0.0, -0.01, 0.4, 0.01};
 			PPLensProperties[] = {0.3, 0.0, 0.0, 0.2};
 		};
 	};
 	class SNAFU_Leupold_Mark8_Base : ItemOptics {
+		isFullscreen = 1;
 		class OpticsInfo {
 			PPMaskProperties[] = {0.0, 0.0, 0.2, 0.025};
 			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
 		};
 	};
 	class SNAFU_Nightforce_Base : ItemOptics {
+		isFullscreen = 1;
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.225, 0.003};
-			PPLensProperties[] = {0.4, 0.0, 0.0, 0.3};
+			PPMaskProperties[] = {0.0, 0.0, 0.24, 0.03};
+			PPLensProperties[] = {0.4, 0.0, -0.005, 0.3};
 		};
 	};
 	class SNAFU_Tango6T_Base : ItemOptics {
+		isFullscreen = 1;
 		class OpticsInfo {
 			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.05};
 			PPLensProperties[] = {0.3, 0.0, 0.0, 0.3};
 		};
 	};
 	class SNAFU_Trijicon_Base : ItemOptics {
+		isFullscreen = 1;
 		class OpticsInfo {
 			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
 			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
@@ -454,6 +460,7 @@ class cfgVehicles{
 		};
 	};
 	class SNAFU_Kahles_Base : ItemOptics {
+		isFullscreen = 1;
 		class OpticsInfo {
 			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.025};
 			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
@@ -481,6 +488,33 @@ class cfgVehicles{
 		class OpticsInfo {
 			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.025};
 			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
+		};
+	};
+
+	class SNAFU_HuntingOptic : ItemOptics {
+		showEnterMisalignment = 1;
+		isFullscreen = 1;
+		class OpticsInfo {
+			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
+			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
+		};
+	};
+	class SNAFU_AKHuntingOptic : SNAFU_HuntingOptic {
+		class OpticsInfo {
+			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
+			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
+		};
+	};
+	class SNAFU_HHuntingOptic : SNAFU_HuntingOptic {
+		class OpticsInfo {
+			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
+			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
+		};
+	};
+	class SNAFU_MHuntingOptic : SNAFU_HuntingOptic {
+		class OpticsInfo {
+			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
+			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
 		};
 	};
 };
