@@ -376,146 +376,123 @@ class cfgVehicles{
 
 	class ItemOptics;
 	class SNAFU_Elcan_Base : ItemOptics {
-		showEnterMisalignment = 0;
-		isFullscreen = 1;
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, -0.01, 0.4, 0.01};
-			PPLensProperties[] = {0.3, 0.0, 0.0, 0.2};
-		};
+		s_isFullscreen = 1;
+		s_pipRadius = 0.5;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.03;
+		s_pipChromAber = 0.2;
 	};
 	class SNAFU_Leupold_Mark8_Base : ItemOptics {
-		isFullscreen = 1;
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.2, 0.025};
-			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
-		};
+		s_isFullscreen = 1;
+		s_pipRadius = 0.2;
+		s_pipMagnification = 0.4;
+		s_pipBlur = 0.025;
+		s_pipChromAber = 0.2;
 	};
 	class SNAFU_Nightforce_Base : ItemOptics {
-		isFullscreen = 1;
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.24, 0.03};
-			PPLensProperties[] = {0.4, 0.0, -0.005, 0.3};
-		};
+		s_isFullscreen = 1;
+		s_pipRadius = 0.24;
+		s_pipMagnification = 0.4;
+		s_pipBlur = 0.03;
+		s_pipChromAber = 0.3;
 	};
 	class SNAFU_Tango6T_Base : ItemOptics {
-		isFullscreen = 1;
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.05};
-			PPLensProperties[] = {0.3, 0.0, 0.0, 0.3};
-		};
+		s_isFullscreen = 1;
+		s_pipRadius = 0.27;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.05;
+		s_pipChromAber = 0.3;
 	};
 	class SNAFU_Trijicon_Base : ItemOptics {
-		isFullscreen = 1;
+		s_pipRadius = 0.175;
+		s_pipMagnification = 0.5;
+		s_pipBlur = 0.025;
+		s_pipChromAber = 0.2;
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/4";
+			opticsZoomMax = "0.4/4";
+			opticsZoomInit = "0.4/4";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_Trijicon : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_Trijicon_Docter : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_AKTrijicon : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_AKTrijicon_Docter : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_HTrijicon : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_HTrijicon_Docter : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_MTrijicon : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_MTrijicon_Docter : SNAFU_Trijicon_Base {
 		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.175, 0.025};
-			PPLensProperties[] = {0.5, 0.0, 0.0, 0.2};
+			opticsZoomMin = "0.4/6";
+			opticsZoomMax = "0.4/6";
+			opticsZoomInit = "0.4/6";
+			discretefov[] = {};
 		};
 	};
 	class SNAFU_Kahles_Base : ItemOptics {
-		isFullscreen = 1;
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.025};
-			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
-		};
+		s_isFullscreen = 1;
+		s_pipRadius = 0.25;
+		s_pipMagnification = 0.4;
+		s_pipBlur = 0.025;
+		s_pipChromAber = 0.2;
 	};
-	class SNAFU_Kahles : SNAFU_Kahles_Base {
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.025};
-			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
-		};
-	};
-	class SNAFU_AKKahles : SNAFU_Kahles_Base {
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.025};
-			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
-		};
-	};
-	class SNAFU_HKahles : SNAFU_Kahles_Base {
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.025};
-			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
-		};
-	};
-	class SNAFU_MKahles : SNAFU_Kahles_Base {
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.25, 0.025};
-			PPLensProperties[] = {0.4, 0.0, 0.0, 0.2};
-		};
-	};
-
 	class SNAFU_HuntingOptic : ItemOptics {
-		showEnterMisalignment = 1;
-		isFullscreen = 1;
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
-			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
-		};
-	};
-	class SNAFU_AKHuntingOptic : SNAFU_HuntingOptic {
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
-			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
-		};
-	};
-	class SNAFU_HHuntingOptic : SNAFU_HuntingOptic {
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
-			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
-		};
-	};
-	class SNAFU_MHuntingOptic : SNAFU_HuntingOptic {
-		class OpticsInfo {
-			PPMaskProperties[] = {0.0, 0.0, 0.8, 0.01};
-			PPLensProperties[] = {0.2, 0.0, 0.0, 0.5};
-		};
+		s_showEnterMisalignment = 1;
+		s_isFullscreen = 1;
+		s_pipRadius = 1.0;
+		s_pipMagnification = 0.2;
+		s_pipBlur = 0.001;
+		s_pipChromAber = 0.5;
 	};
 };
 
